@@ -8,7 +8,7 @@ const devlopment = {
     secure: false,
     auth: {
       user: "sagararor403@gmail.com",
-      pass: "Sagar@123",
+      pass: "34567",
     },
   },
 
