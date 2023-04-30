@@ -2,7 +2,9 @@ const mongoose = require("mongoose");
 
 // mongoose.connect('mongodb://localhost/auth_db');
 
-mongoose.connect("mongodb://0.0.0.0:27017/NodeAuthentication");
+mongoose.connect(
+  "mongodb+srv://sagararor403:AbD2ybMcYdvXt8HO@cluster0.e24hepe.mongodb.net/nodeapplication"
+);
 
 //accuire the connectiontion
 const db = mongoose.connection;
